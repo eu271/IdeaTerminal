@@ -1,5 +1,20 @@
+<<<<<<< HEAD
 
 /out/
 /IdeaTerminal.zip
 .idea/workspace.xml
 src/
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 66b41d28f3e73462369b338da52365345b7a5390
