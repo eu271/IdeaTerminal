@@ -1,0 +1,22 @@
+<idea-plugin version="5">
+  <id>io.github.eu271.idea.terminal.api</id>
+  <name>terminalAPI</name>
+  <version>2.0</version>
+  <vendor email="eugenio_mdq@hotmail.com" url="http://eu271.github.io">Eugenio</vendor>
+
+  <description><![CDATA[
+      Expose some functionality of Intellij to the terminal.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial release of the plugin.
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="141.0"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <appStarter implementation="io.github.eu271.idea.ProjectsRunner" />
+  </extensions>
+
+</idea-plugin>
